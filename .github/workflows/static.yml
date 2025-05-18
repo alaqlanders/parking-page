@@ -1,0 +1,150 @@
+static_html: |
+  <!DOCTYPE html>
+  <html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ALAQLanders - Domain Parking</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+      * {
+        box-sizing: border-box;
+      }
+
+      @keyframes gradientShift {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(270deg, #4a90e2, #357ABD, #4a90e2, #357ABD);
+        background-size: 400% 400%;
+        animation: gradientShift 15s ease infinite;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 600px;
+        width: 100%;
+        background: rgba(255 255 255 / 0.1);
+        padding: 3rem 2.5rem;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        backdrop-filter: blur(8px);
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        margin: 0 0 0.3rem;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      }
+
+      p.lead {
+        font-size: 1.3rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        color: #e0e7ffcc;
+      }
+
+      .btn-primary {
+        background-color: #ff6f61;
+        color: white;
+        font-weight: 700;
+        font-size: 1.3rem;
+        border: none;
+        border-radius: 12px;
+        padding: 1rem 2.5rem;
+        margin: 0.6rem;
+        cursor: pointer;
+        box-shadow: 0 6px 15px rgba(255, 111, 97, 0.5);
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+        display: inline-block;
+        user-select: none;
+        width: 100%;
+        max-width: 260px;
+      }
+
+      .btn-primary:hover {
+        background-color: #ff4b3e;
+        transform: scale(1.05) translateY(-4px);
+        box-shadow: 0 12px 20px rgba(255, 75, 62, 0.6);
+      }
+
+      .buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      footer {
+        margin-top: 3rem;
+        font-size: 0.85rem;
+        opacity: 0.4;
+        user-select: none;
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 2.8rem;
+        }
+        .btn-primary {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" role="main">
+      <h1>ALAQLanders</h1>
+      <p class="lead">
+        This domain is currently parked with ALAQLanders.<br />
+        The official website is coming soon. Stay tuned!
+      </p>
+
+      <nav class="buttons" role="navigation" aria-label="Related searches">
+        <a
+          href="https://www.google.com/search?q=domain+parking+services"
+          class="btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Domain Parking Services</a
+        >
+        <a
+          href="https://www.godaddy.com/domains/domain-name-search"
+          class="btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Search Domains</a
+        >
+        <a
+          href="https://www.namecheap.com/domains/registration/"
+          class="btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Register Domains</a
+        >
+      </nav>
+    </div>
+
+    <footer>
+      &copy; 2025 ALAQLanders. All rights reserved.
+    </footer>
+  </body>
+  </html>
+
