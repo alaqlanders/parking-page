@@ -6,4 +6,4 @@ console.warn(`
                                                             
 This service is provided free, courtesy of ALAQ Landers. 
 Copyright 2025 by ALAQLanders. Unauthorized use of this material is not permitted.
-`);
+`)
