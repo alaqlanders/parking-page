@@ -8,7 +8,7 @@ This service is provided free, courtesy of ALAQ Landers.
 Copyright 2025 by ALAQLanders. Unauthorized use of this material is not permitted.
 
 --
-To recieve your own parking-page, visit https://alaq.xyz/.
+To receive your parking page, visit https://alaq.xyz/. ** NOTICE ** 
 
-Made with LOVE by Alaq.
+
 `)
